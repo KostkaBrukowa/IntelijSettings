@@ -1,0 +1,40 @@
+<templateSet group="user">
+  <template name="dob" value="const { $props$ } = $object$;" description="deconstruct object" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="props" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cp" value="const { $props$ } = this.props;" description="deconstruct props" toReformat="false" toShortenFQNames="true">
+    <variable name="props" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cs" value="const { $props$ } = this.state;" description="deconstruct state" toReformat="false" toShortenFQNames="true">
+    <variable name="props" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qlbuilder" value="import faker from 'faker';&#10;&#10;import { $model$ } from './$model$';&#10;&#10;export const build$model$Model = (props?: Partial&lt;$model$&gt;): $model$ =&gt;&#10;    $model$.create({&#10;        ...props,&#10;    });&#10;&#10;export const save$model$Model = (props?: Partial&lt;$model$&gt;): Promise&lt;$model$&gt; =&gt;&#10;    build$model$Model(props).save();&#10;" description="build graphql entity" toReformat="false" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="clg" value="System.out.println($message$);$END$" description="log message to console" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="parsertest" value="   import org.example.compiler.lexer.token.Type&#10;import org.example.compiler.parser.BufferedLexer&#10;import org.example.compiler.parser.Lexer&#10;import org.example.compiler.parser.utils.UnexpectedToken&#10;import org.example.compiler.source.StringSource&#10;import spock.lang.Specification&#10;import spock.lang.Unroll&#10;&#10;import static org.example.compiler.lexer.LazyLexerTest.buildLazyLexer&#10;&#10;class $WHAT$ParserTest extends Specification {&#10;    Lexer lazyLexer&#10;&#10;    @Unroll&#10;    def &quot;should return correct $WHAT$ from string '#inputString'&quot;() {&#10;        given:&#10;        lazyLexer = buildLazyLexer(new StringSource(inputString))&#10;&#10;        and:&#10;        def bufferedLexer = new BufferedLexer(lazyLexer)&#10;&#10;        when:&#10;        def $WHAT$ = $WHAT$Parser.INSTANCE.parse(bufferedLexer)&#10;&#10;        then:&#10;        with($WHAT$) {&#10;        }&#10;&#10;        where:&#10;        expected$VALUE$| inputString&#10;        [$END$]| 'foo: String'&#10;    }&#10;&#10;    @Unroll&#10;    def &quot;should return unexpected token when input is incorrect for string '#inputString'&quot;() {&#10;        given:&#10;        lazyLexer = buildLazyLexer(new StringSource(inputString))&#10;&#10;        and:&#10;        def bufferedLexer = new BufferedLexer(lazyLexer)&#10;&#10;        when:&#10;        $WHAT$Parser.INSTANCE.parse(bufferedLexer)&#10;&#10;        then:&#10;        def exception = thrown(UnexpectedToken)&#10;        exception.message.contains(expectedToken.toString())&#10;&#10;        where:&#10;        expectedToken      | inputString&#10;        TerminalType.FUNCTION      | &quot;Function&lt;Arg&lt;&gt;, Returns&lt;String&gt;&gt;: &quot;&#10;    }&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="WHAT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>

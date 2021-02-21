@@ -1,0 +1,27 @@
+<templateSet group="Kotlin">
+  <template name="jparam" value="@Param(&quot;$paramName$&quot;) $paramName$: $END$, " description="jpa query param" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="testcase" value="def &quot;$testMessage$&quot;() {&#10;    expect:&#10;    false&#10;}$END$" description="test case for groovy test" toReformat="false" toShortenFQNames="true">
+    <variable name="testMessage" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="orparser" value="package org.example.compiler.parser.productions&#10;&#10;import org.example.compiler.parser.Production&#10;import org.example.compiler.parser.ProductionParser&#10;import org.example.compiler.parser.productions.utils.OrParser&#10;&#10;interface $GENERAL_TYPE$ : Production&#10;&#10;object $GENERAL_TYPE$Parser : OrParser&lt;$GENERAL_TYPE$&gt; {&#10;    override val parsers: List&lt;ProductionParser&lt;out $GENERAL_TYPE$&gt;&gt; = listOf($END$)&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="GENERAL_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="parser" value="import org.example.compiler.parser.BufferedLexer&#10;import org.example.compiler.parser.Production&#10;import org.example.compiler.parser.ProductionParser&#10;import org.example.compiler.lexer.token.Token&#10;&#10;&#10;&#10;data class $NAME$() : $PRODUCITON_TYPE$ {}&#10;&#10;object $NAME$Parser : ProductionParser&lt;$NAME$&gt; {&#10;&#10;    override fun parse(lexer: BufferedLexer): $NAME$ {&#10;        return $NAME$()&#10;    }&#10;&#10;    override fun matchesFirstToken(token: Token?): Boolean = TODO()&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PRODUCITON_TYPE" expression="" defaultValue="Production" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

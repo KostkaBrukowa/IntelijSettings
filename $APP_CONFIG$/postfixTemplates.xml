@@ -1,0 +1,20 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="temp@userDefined" key=".temp" provider="builtin.ts" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="`${$EXPR$}`" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="boolean@userDefined" key=".boolean" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="Boolean($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="temp@userDefined" key=".temp" provider="builtin.js" language-level="JSX" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="`${$EXPR$}`" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="aof@userDefined" key=".aof" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="() =&gt; { $EXPR$ }" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>

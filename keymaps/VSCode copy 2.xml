@@ -1,0 +1,136 @@
+<keymap version="1" name="VSCode copy 2" parent="VSCode">
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+    <keyboard-shortcut first-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
+  <action id="ActivateServicesToolWindow" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+  <action id="CloseAllEditors" />
+  <action id="CloseProject" />
+  <action id="CollapseAllRegions" />
+  <action id="CollapseRegionRecursively" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+  </action>
+  <action id="CompareClipboardWithSelection" />
+  <action id="DatabaseView.Tools">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSourceInNewWindow" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="EditorDownWithSelection" />
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="EditorIndentLineOrSelection" />
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="EditorRightWithSelection" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="EditorUpWithSelection" />
+  <action id="ExpandAllRegions" />
+  <action id="ExpandRegionRecursively" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoProject" />
+  <action id="FileChooser.NewFile" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <mouse-shortcut keystroke="meta button1" />
+    <keyboard-shortcut first-keystroke="alt period" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="GotoSymbol" />
+  <action id="Groovy.NewClass">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Help.KeymapReference" />
+  <action id="InsertLiveTemplate" />
+  <action id="JumpToLastChange" />
+  <action id="Kotlin.NewFile">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="MinimizeCurrentWindow" />
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="ctrl meta n" />
+  </action>
+  <action id="NewFile" />
+  <action id="QuickChangeScheme" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
+  <action id="RerunFailedTests">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="RevealIn" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="shift down" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f11" />
+    <keyboard-shortcut first-keystroke="shift up" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+    <keyboard-shortcut first-keystroke="shift right" />
+  </action>
+  <action id="Table-selectNextColumnExtendSelection" />
+  <action id="ToggleDistractionFreeMode" />
+  <action id="Tree-selectChildExtendSelection" />
+  <action id="Tree-selectPreviousExtendSelection" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction" />
+</keymap>

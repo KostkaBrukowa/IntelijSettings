@@ -1,0 +1,40 @@
+<templateSet group="Graphql">
+  <template name="entity" value="import { Entity, PrimaryGeneratedColumn, Column, BaseEntity } from 'typeorm';&#10;import { Field, ID, ObjectType } from 'type-graphql';&#10;&#10;@ObjectType()&#10;@Entity()&#10;export class $entityName$ extends BaseEntity {&#10;    @Field(() =&gt; ID)&#10;    @PrimaryGeneratedColumn()&#10;    id: number;&#10;}&#10;" description="creates typeorm entity" toReformat="false" toShortenFQNames="true">
+    <variable name="entityName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="column" value="@Column({ nullable: $true$ })&#10;$columnName$: $type$;" description="create typeorm column" toReformat="false" toShortenFQNames="true">
+    <variable name="true" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="columnName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="otm" value="@OneToMany(() =&gt; $referenceType$, $referenceVar$ =&gt; $referenceVar$.$attr$)&#10;$referenceVar$s: $referenceType$[];&#10;" description="creates one to many column" toReformat="false" toShortenFQNames="true">
+    <variable name="referenceType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="referenceVar" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="attr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mto" value="@ManyToOne(() =&gt; $referenceType$, $fieldName$ =&gt; $fieldName$.$attr$)&#10;$fieldName$: $referenceType$;&#10;" description="creates many to one column" toReformat="false" toShortenFQNames="true">
+    <variable name="referenceType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="attr" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mtm" value="@ManyToMany(() =&gt; $referenceType$, $referenceVar$ =&gt; $referenceVar$.$attr$)&#10;$referenceVar$s: $referenceType$[];" description="many to many column" toReformat="false" toShortenFQNames="true">
+    <variable name="referenceType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="referenceVar" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="attr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

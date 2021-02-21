@@ -1,0 +1,81 @@
+<templateSet group="JavaScript">
+  <template name="clg" value="console.log($variable$);" shortcut="TAB" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="diffp" value="const { $prop$ } = this.props;&#10;const { $prop$: prev$Prop$ } = prevProps;&#10;if($prop$ !== prev$Prop$) {&#10;    $action$&#10;}" description="diffes the props in component did update" toReformat="false" toShortenFQNames="true">
+    <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Prop" expression="capitalize(prop)" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="builder" value="import React, { ReactElement } from 'react';&#10;&#10;export const build$component$ = (props?: Partial&lt;$component$Props&gt;): ReactElement =&gt; (&#10;    &lt;$component$&#10;        {...props}&#10;    /&gt;&#10;);" description="test builder" toReformat="false" toShortenFQNames="true">
+    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="testfile" value="import { mount } from 'enzyme';&#10;import { expect } from 'chai';&#10;import sinon from 'sinon';&#10;&#10;describe('&lt;$component$ /&gt;', () =&gt; {&#10;    it('should render $component$', () =&gt; {&#10;        // given&#10;        &#10;        // when&#10;        const wrapper = mount(build$component$());&#10;&#10;        // then&#10;        expect(wrapper).to.exist;&#10;    });&#10;});" description="build test file" toReformat="false" toShortenFQNames="true">
+    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="listmodel" value="import { List } from 'immutable';&#10;&#10;import { Model } from '../Model';&#10;import { $model$Model } from './BrandModel';&#10;&#10;export class $model$ListModel extends Model&lt;$model$ListModel&gt; {&#10;    public constructor(&#10;        readonly $model$s: List&lt;$model$Model&gt; = List()&#10;    ) {&#10;        super();&#10;    }&#10;&#10;    public find$model$ById($model$Id: string): $model$Model {&#10;        return this.$model$s.find($model$ =&gt; $model$.id === $model$Id);&#10;    }&#10;}&#10;" description="build list model" toReformat="false" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="modelmapper" value="export class $model$Mapper extends ResponseMapper&lt;$model$ResponseDTO, $model$Model&gt; {&#10;    public fromResponse(response: $model$ResponseDTO): $model$Model {&#10;        return new $model$Model(&#10;         $END$&#10;        );&#10;    }&#10;}&#10;" description="creates model mapper" toReformat="false" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="modellistmapper" value="const $smodel$Mapper = new $model$Mapper();&#10;&#10;export class $model$ListMapper extends ResponseMapper&lt;$model$ResponseDTO, $model$ListModel&gt; {&#10;    public fromResponse(response: $model$ResponseDTO): $model$ListModel {&#10;        return new $model$ListModel($smodel$Mapper.fromResponseList(response.$END$));&#10;    }&#10;}&#10;" description="creates model list mapper" toReformat="false" toShortenFQNames="true">
+    <variable name="smodel" expression="decapitalize(model)" defaultValue="" alwaysStopAt="true" />
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="modelrequestmapper" value="export class $model$RequestMapper extends RequestMapper&lt;$model$Model, $model$RequestDTO&gt; {&#10;    public toRequest($model$: $model$Model): $model$RequestDTO {&#10;        return null;&#10;    }&#10;}&#10;" description="creates model request mapper class" toReformat="false" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="modelbuilder" value="export const build$component$ = (props?: Partial&lt;$component$&gt;): $component$ =&gt; (&#10;    new $component$().copy(props)&#10;);" description="create custom model builder" toReformat="false" toShortenFQNames="true">
+    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="classname" value="const $name$ClassName = classNames(&#10;  $end$&#10;);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="paf" value="private $functionName$ = ($args$): $returnType$ =&gt; {&#10;    return $END$&#10;}" description="private arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="functionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="returnType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pafwa" value="private $functionName$ = (): $returnType$ =&gt; {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="functionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="returnType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
