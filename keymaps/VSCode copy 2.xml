@@ -57,6 +57,7 @@
   <action id="EditorUpWithSelection" />
   <action id="ExpandAllRegions" />
   <action id="ExpandRegionRecursively" />
+  <action id="ExportToTextFile" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFile" />
