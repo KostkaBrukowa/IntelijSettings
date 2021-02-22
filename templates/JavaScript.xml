@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="clg" value="console.log($variable$);" shortcut="TAB" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="clg" value="console.log('$variable$', $variable$);" shortcut="TAB" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
