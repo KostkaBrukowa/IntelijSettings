@@ -117,6 +117,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
   <action id="NewFile" />
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="QuickChangeScheme" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
