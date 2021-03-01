@@ -62,9 +62,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="us" value="const [$END2$, $END$] = useState($END1$);" description="useState" toReformat="false" toShortenFQNames="true">
-    <variable name="END2" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="END1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="us" value="const [$var$, set$var2$] = useState($initialValue$);$END$" description="useState" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="capitalize(var)" defaultValue="" alwaysStopAt="true" />
+    <variable name="initialValue" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
