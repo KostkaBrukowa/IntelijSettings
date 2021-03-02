@@ -149,4 +149,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="cho" value="interface $CAPS_FILE_NAME$ {}&#10;&#10;export const $FILE_NAME$ = (): $CAPS_FILE_NAME$ =&gt; {&#10;  $END$&#10;  return {};&#10;}" description="custom hook" toReformat="false" toShortenFQNames="true">
+    <variable name="CAPS_FILE_NAME" expression="capitalize(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
