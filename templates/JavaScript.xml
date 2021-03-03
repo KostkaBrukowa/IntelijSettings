@@ -14,8 +14,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="builder" value="import React, { ReactElement } from 'react';&#10;&#10;export const build$component$ = (props?: Partial&lt;$component$Props&gt;): ReactElement =&gt; (&#10;    &lt;$component$&#10;        {...props}&#10;    /&gt;&#10;);" description="test builder" toReformat="false" toShortenFQNames="true">
-    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="builder" value="import React, { ReactElement } from 'react';&#10;&#10;export const build$component$ = (props?: Partial&lt;$component$Props&gt;): ReactElement =&gt; (&#10;    &lt;$component$$END$&#10;        {...props}&#10;    /&gt;&#10;);" description="test builder" toReformat="false" toShortenFQNames="true">
+    <variable name="component" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
