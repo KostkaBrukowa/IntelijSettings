@@ -5,8 +5,10 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="metrum-react-components.d.ts" />
     <mask>*.style.ts</mask>
     <mask>*.spec.tsx</mask>
     <mask>*.spec.ts</mask>
+    <mask>metrum-react-components.d.ts</mask>
   </component>
 </application>
