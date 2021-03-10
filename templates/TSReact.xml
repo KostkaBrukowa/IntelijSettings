@@ -46,7 +46,7 @@
     </context>
   </template>
   <template name="fc" value="import React from 'react';&#10;&#10;export interface $FILE_NAME$Props {}&#10;&#10;export const $FILE_NAME$: React.FC&lt;$FILE_NAME$Props&gt; = ({}) =&gt; {&#10;  return (&#10;    &lt;div&gt;$END$&lt;/div&gt;&#10;  );&#10;};" description="create function component" toReformat="false" toShortenFQNames="true">
-    <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
