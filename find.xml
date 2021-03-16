@@ -6,5 +6,6 @@
     <mask>*.style.ts</mask>
     <mask>*.spec.tsx</mask>
     <mask>*.spec.ts</mask>
+    <mask>metrum-react-components.d.ts</mask>
   </component>
 </application>
