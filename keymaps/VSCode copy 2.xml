@@ -75,6 +75,7 @@
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="EditorRightWithSelection" />
+  <action id="EditorToggleUseSoftWraps" />
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
@@ -89,6 +90,9 @@
   <action id="ExportToTextFile" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
   <action id="FileChooser.NewFile" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
