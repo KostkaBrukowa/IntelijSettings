@@ -135,8 +135,14 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="NewFile" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
   <action id="NextWindow">
     <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
   <action id="QuickChangeScheme" />
   <action id="RenameElement">
