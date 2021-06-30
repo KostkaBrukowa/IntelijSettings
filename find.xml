@@ -3,9 +3,11 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!*.spec.ts" />
     <mask>*.style.ts</mask>
     <mask>*.spec.tsx</mask>
     <mask>*.spec.ts</mask>
     <mask>metrum-react-components.d.ts</mask>
+    <mask>!*.spec.ts</mask>
   </component>
 </application>
