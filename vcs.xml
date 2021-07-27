@@ -58,6 +58,10 @@
           <option name="url" value="https://stash.allegrogroup.com/scm/adsinternalfront/ad-ppc-panel-docker.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:kamkry/prototype-type-generator.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/Praca" />
