@@ -66,6 +66,10 @@
           <option name="url" value="https://anf:96-CynFMQxz3yQiywnYZ@gitlab.com/architektura-na-froncie/anf-public.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:KostkaBrukowa/https-github.com-marketplace-actions-auto-assign-review-members-from-teams.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/Praca" />
