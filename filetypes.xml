@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="no-class-arrow.js" type="AUTO_DETECTED" />
       <mapping pattern="0" type="AUTO_DETECTED" />
+      <mapping pattern="add-pre-commit-hook" type="AUTO_DETECTED" />
       <mapping pattern="UserSpec" type="Groovy" />
       <mapping pattern="NotificationMapper.tsx" type="JAVA" />
       <mapping ext="space.kts" type="Kotlin" />
