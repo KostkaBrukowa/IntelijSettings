@@ -59,11 +59,23 @@
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="git@github.com:kamkry/opbox-css-webstorm.git" />
+          <option name="url" value="git@github.com:kamkry/prototype-type-generator.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://stash.allegrogroup.com/scm/advertisingppc/ad-ppc-campaign-editor.git" />
+          <option name="url" value="https://anf:96-CynFMQxz3yQiywnYZ@gitlab.com/architektura-na-froncie/anf-public.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:KostkaBrukowa/https-github.com-marketplace-actions-auto-assign-review-members-from-teams.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/shsuman/ts-plugin-test.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:allegro-internal/prototypes-to-typescript.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
@@ -77,7 +89,6 @@
         <option value="Default.Subject" />
         <option value="Default.Author" />
         <option value="Default.Date" />
-        <option value="Space.CommitStatus" />
       </list>
     </option>
   </component>

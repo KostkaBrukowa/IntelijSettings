@@ -3,12 +3,6 @@
     <extensionMap>
       <mapping pattern="no-class-arrow.js" type="AUTO_DETECTED" />
       <mapping pattern="0" type="AUTO_DETECTED" />
-      <mapping pattern="add-pre-commit-hook" type="AUTO_DETECTED" />
-      <mapping pattern="UserSpec" type="Groovy" />
-      <mapping pattern="NotificationMapper.tsx" type="JAVA" />
-      <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".deprecated" type="PLAIN_TEXT" />
@@ -36,6 +30,11 @@
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="NotificationMapper.tsx" type="JAVA" />
+      <mapping pattern="UserSpec" type="Groovy" />
     </extensionMap>
   </component>
 </application>
