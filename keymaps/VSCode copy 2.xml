@@ -131,6 +131,9 @@
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
+  <action id="NewElementInMenuGroup">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="NewElementMenu">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
