@@ -92,6 +92,9 @@
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
   <action id="EditorUpWithSelection" />
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
   <action id="ExpandAllRegions" />
   <action id="ExpandRegionRecursively" />
   <action id="ExportToTextFile" />
