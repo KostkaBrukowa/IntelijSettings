@@ -78,6 +78,14 @@
           <option name="url" value="git@github.com:allegro-internal/prototypes-to-typescript.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:KostkaBrukowa/MovieBrowser.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:typescript-eslint/typescript-eslint.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/Praca" />
@@ -89,7 +97,6 @@
         <option value="Default.Subject" />
         <option value="Default.Author" />
         <option value="Default.Date" />
-        <option value="Space.CommitStatus" />
       </list>
     </option>
   </component>
