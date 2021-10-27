@@ -193,6 +193,11 @@
     <keyboard-shortcut first-keystroke="shift right" />
   </action>
   <action id="SwitchHeaderSource" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
   <action id="Table-selectNextColumnExtendSelection" />
   <action id="Terminal.CopySelectedText">
     <keyboard-shortcut first-keystroke="ctrl c" />
