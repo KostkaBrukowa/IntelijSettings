@@ -28,6 +28,7 @@
   <action id="ActivateServicesToolWindow" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt y" />
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="meta m" />
