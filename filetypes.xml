@@ -4,6 +4,7 @@
       <mapping pattern="no-class-arrow.js" type="AUTO_DETECTED" />
       <mapping pattern="0" type="AUTO_DETECTED" />
       <mapping pattern="CODEOWNERS" type="AUTO_DETECTED" />
+      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".deprecated" type="PLAIN_TEXT" />
