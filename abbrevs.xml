@@ -1,17 +1,17 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="ActivateMessagesToolWindow">
-        <abbreviation name="msg" />
-      </action>
       <action id="IntroduceVariable">
         <abbreviation name="var" />
+      </action>
+      <action id="QuickTypeDefinition">
+        <abbreviation name="type" />
       </action>
       <action id="ToggleLineBreakpoint">
         <abbreviation name="br" />
       </action>
-      <action id="QuickTypeDefinition">
-        <abbreviation name="type" />
+      <action id="ActivateMessagesToolWindow">
+        <abbreviation name="msg" />
       </action>
     </abbreviations>
   </component>
