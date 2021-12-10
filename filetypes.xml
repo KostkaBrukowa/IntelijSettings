@@ -6,6 +6,7 @@
       <mapping pattern="CODEOWNERS" type="AUTO_DETECTED" />
       <mapping pattern="UserSpec" type="Groovy" />
       <mapping pattern="NotificationMapper.tsx" type="JAVA" />
+      <removed_mapping ext="graphqlconfig" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
