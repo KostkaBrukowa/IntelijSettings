@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.yaml" />
     <mask>*.style.ts</mask>
     <mask>*.spec.tsx</mask>
     <mask>*.spec.ts</mask>
@@ -18,5 +19,6 @@
     <mask>!(*.yml)</mask>
     <mask>.graphqls</mask>
     <mask>*.graphqls</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>
