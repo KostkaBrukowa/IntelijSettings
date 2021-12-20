@@ -13,11 +13,11 @@
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.java</mask>
     <mask>*.yml</mask>
     <mask>!(*.yml)</mask>
     <mask>.graphqls</mask>
     <mask>*.graphqls</mask>
     <mask>*.yaml</mask>
+    <mask>*.java</mask>
   </component>
 </application>
