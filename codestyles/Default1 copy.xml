@@ -1,4 +1,8 @@
 <code_scheme name="Default1 copy" version="173">
+  <GroovyCodeStyleSettings>
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="50" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="50" />
+  </GroovyCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,body" />
